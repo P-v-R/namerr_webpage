@@ -2,3 +2,25 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.demoData{
+  margin-left: auto;
+  margin-right: auto;
+  border:solid 2px #3e415c;
+  border-radius: 5px;
+  background-color: #f3f1df ;
+  max-width: 80%;
+}
+
+.dataText {
+  color:#3e415c;
+  padding: 2%;
+}
+
+.databtn {
+  margin-top:2%;
+  margin-bottom: 2%;
+  border:solid 2px #f3f1df ;
+  background-color: #f3f1df;
+
+}

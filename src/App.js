@@ -12,15 +12,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-        <Example />
+          <Example />
         </div>
         <img src={logo} className="App-logo" alt="logo" />
-        
           <Intro/>
-          <div style={{marginTop:"15%"}}></div>
+            <div style={{marginTop:"50vh"}}></div>
           <Zoom>
-          <h3>Bulk email addresses? tons of fake names? Random usernames? <u>You Name It!</u></h3>
-          <Demo/>
+            <h3>Bulk email addresses? tons of fake names? Random usernames? <u>You Name It!</u></h3>
+            <Demo/>
           </Zoom>
         
       </header>
