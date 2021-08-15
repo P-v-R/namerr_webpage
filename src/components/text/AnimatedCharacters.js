@@ -62,24 +62,25 @@ const AnimatedCharacters = props => {
                 <span
                   style={{
                     overflow: "hidden",
-                    display: "inline-block"
+                    display: "inline-block",
+                    
                   }}
-                  key={index}
+            key={index}
                 >
-                  <motion.span
-                    style={{ display: "inline-block" }}
-                    variants={item}
-                  >
-                    {element}
-                  </motion.span>
+            <motion.span
+              style={{ display: "inline-block" }}
+              variants={item}
+            >
+              {element}
+            </motion.span>
                 </span>
-              );
-            })}
-          </Wrapper>
         );
       })}
-      {/* {} */}
-    </Tag>
+          </Wrapper>
+  );
+})}
+{/* {} */ }
+    </Tag >
   );
 };
 

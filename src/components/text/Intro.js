@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import AnimatedCharacters from "./AnimatedCharacters";
-// import "styles.css";
+import "./styles.css"
 
 export default function Intro() {
   const [replay, setReplay] = useState(true);
   // Placeholder text data, as if from API
   const placeholderText = [
-    { type: "heading1", text: "Namerr is a package for generating \nlarge ammounts of names, emails and more on the fly!" },
+    { type: "heading1", text: "Namerr is a package for generating names, emails and more on the fly!" },
     {
       type: "heading2",
       text: "Scroll down to see more"
@@ -17,7 +17,7 @@ export default function Intro() {
   const container = {
     visible: {
       transition: {
-        staggerChildren: 0.025
+        staggerChildren: 0.019
       }
     }
   };
@@ -33,11 +33,11 @@ export default function Intro() {
       variants={container}
     >
       <div className="container">
-        {placeholderText.map((item, index) => {
-          return <AnimatedCharacters {...item} key={index} />;
-        })}
+      {placeholderText.map((item, index) => {
+        return <AnimatedCharacters {...item} key={index} />;
+      })}
       </div>
       
-    </motion.div>
+    </motion.div >
   );
 }

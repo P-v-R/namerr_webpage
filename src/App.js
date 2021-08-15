@@ -18,7 +18,7 @@ function App() {
           <Intro/>
             <div style={{marginTop:"50vh"}}></div>
           <Zoom>
-            <h3>Bulk email addresses? tons of fake names? Random usernames? <u>You Name It!</u></h3>
+            <h3>Bulk email addresses? Tons of fake names? Random usernames? <br></br> <u>You Name It!</u></h3>
             <Demo/>
           </Zoom>
         
