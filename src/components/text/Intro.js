@@ -7,7 +7,7 @@ export default function Intro() {
   const [replay, setReplay] = useState(true);
   // Placeholder text data, as if from API
   const placeholderText = [
-    { type: "heading1", text: "Namerr is a package for generating large ammounts of \n names, emails and more on the fly!" },
+    { type: "heading1", text: "Namerr is a package for generating \nlarge ammounts of names, emails and more on the fly!" },
     {
       type: "heading2",
       text: "Scroll down to see more"
