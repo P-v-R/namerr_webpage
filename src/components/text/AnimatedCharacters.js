@@ -23,7 +23,7 @@ const AnimatedCharacters = props => {
     hidden: {
       y: "200%",
       color: "#f3f1df",
-      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.15 }
+      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.55 }
     },
     visible: {
       y: 0,
@@ -41,7 +41,6 @@ const AnimatedCharacters = props => {
   // Push each word into words array
   for (const [index, item] of splitWords.entries()) {
     words.push(item.split(""));
-    console.log(index)
   }
 
   // Add a space ("\u00A0") to the end of each word
