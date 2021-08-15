@@ -19,4 +19,4 @@ export const Navigation = () => (
   </motion.ul>
 );
 
-const itemIds = [[0,"Getting Started"], [1,"Try It Out"], [2,"Buy Me a Beer!"]];
+const itemIds = [[0,"Try It Out!", "try" ], [1,"Getting Started", "start"], [2,"Buy Me a Beer!", "beer"]];

@@ -29,7 +29,12 @@ export const MenuItem = ({ i }) => {
       whileTap={{ scale: 0.95 }}
     >
       <div className="icon-placeholder" style={{ ...style, backgroundColor: `${colors[i[0]]}` }}></div>
-      <div className="text-placeholder" style={style}>{i[1]}</div>
+      <div className="text-placeholder" style={style}>
+        <a href={`#${i[2]}`}
+           style={style}>{i[1]}
+        
+        </a>
+      </div>
     </motion.li>
   );
 };

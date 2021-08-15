@@ -4,6 +4,11 @@
   width:100vw;
 
 }
+.docsDiv {
+  margin-left: auto;
+  margin-right: auto;
+  width:50vw;
+}
 
 .demoData{
   margin-left: auto;
@@ -14,9 +19,23 @@
   max-width: 95%;
 }
 
+.docsData{
+  margin-left: auto;
+  margin-right: auto;
+  border:solid 2px #3e415c;
+  border-radius: 5px;
+  background-color: #f3f1df ;
+  width: 95%;
+}
+
 .dataText {
   color:#3e415c;
   padding: 2%;
+  font-size: 19px;
+}
+.docsText {
+  color:#3e415c;
+  padding: 0;
   font-size: 19px;
 }
 
@@ -27,3 +46,11 @@
   background-color: #f3f1df;
 
 }
+
+.alert-light{
+  background-color: #f3f1df ;
+}
+.alert-light:hover{
+  color: #3e415c ;
+}
+

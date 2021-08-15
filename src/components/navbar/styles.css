@@ -103,8 +103,9 @@ nav {
   left: 0;
   bottom: 0;
   width: 100vw;
+
   /* background: #f3f1df; */
-  background-image: linear-gradient( #f3f1df, #80b29b);
+  background-image: linear-gradient( #f3f1df, #f3f1df, #7b9c9070);
   z-index: 1;
 }
 

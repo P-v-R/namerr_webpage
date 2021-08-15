@@ -1,6 +1,8 @@
 html, body {
 
-  background-color:#80b29b;
+  /* background-color:#80b29b; */
+  background-image: linear-gradient(180deg, #80b29b, #3e415c);
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

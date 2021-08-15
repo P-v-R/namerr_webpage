@@ -18,7 +18,7 @@ export const Demo = () => {
     setData(`[${userStrings}]`);
   }
   return (
-    <div className="demoDiv">
+    <div className="demoDiv" >
       <motion.button 
           whileHover={{scale:1.1}}
           whileTap={{scale:0.9}} 

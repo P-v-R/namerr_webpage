@@ -12,7 +12,7 @@
 
 
 .App-header {
-  min-height: 600vh; 
+  min-height: 100vh; 
   display: flex;
   flex-direction: column; 
   align-items: center;
@@ -20,3 +20,7 @@
   font-size: calc(10px + 2vmin); 
   color: #f3f1df; 
 } 
+
+.support-text{
+  color: #f3f1df;
+}
