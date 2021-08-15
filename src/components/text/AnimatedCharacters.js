@@ -9,8 +9,8 @@ const Wrapper = props => {
 
 // Map API "type" vaules to JSX tag names
 const tagMap = {
-  paragraph: "p",
-  heading1: "h3",
+  paragraph: "div",
+  heading1: "h2",
   heading2: "h2"
 };
 
@@ -56,7 +56,7 @@ const AnimatedCharacters = props => {
       {words.map((word, index) => {
         return (
           // Wrap each word in the Wrapper component
-          <div>
+          
             <Wrapper key={index}>
               {words[index].flat().map((element, index) => {
                 return (
@@ -64,6 +64,7 @@ const AnimatedCharacters = props => {
                     style={{
                       overflow: "hidden",
                       display: "inline-block",
+                      fontSize:"3vw",
 
                     }}
                     key={index}
@@ -78,7 +79,7 @@ const AnimatedCharacters = props => {
                 );
               })}
             </Wrapper>
-          </div>
+          
         );
       })}
       {/* {} */}
