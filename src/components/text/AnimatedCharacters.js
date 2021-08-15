@@ -56,30 +56,32 @@ const AnimatedCharacters = props => {
       {words.map((word, index) => {
         return (
           // Wrap each word in the Wrapper component
-          <Wrapper key={index}>
-            {words[index].flat().map((element, index) => {
-              return (
-                <span
-                  style={{
-                    overflow: "hidden",
-                    display: "inline-block",
-                    
-                  }}
-            key={index}
-                >
-            <motion.span
-              style={{ display: "inline-block" }}
-              variants={item}
-            >
-              {element}
-            </motion.span>
-                </span>
+          <div>
+            <Wrapper key={index}>
+              {words[index].flat().map((element, index) => {
+                return (
+                  <span
+                    style={{
+                      overflow: "hidden",
+                      display: "inline-block",
+
+                    }}
+                    key={index}
+                  >
+                    <motion.span
+                      style={{ display: "inline-block" }}
+                      variants={item}
+                    >
+                      {element}
+                    </motion.span>
+                  </span>
+                );
+              })}
+            </Wrapper>
+          </div>
         );
       })}
-          </Wrapper>
-  );
-})}
-{/* {} */ }
+      {/* {} */}
     </Tag >
   );
 };

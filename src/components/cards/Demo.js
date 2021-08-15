@@ -1,8 +1,7 @@
 import {useState} from "react";
-// import { Button } from "reactstrap";
 import { motion } from "framer-motion";
-import "./cardstyles.css"
-import {Namerr} from "namerr"
+import "./cardstyles.css";
+import {Namerr} from "namerr";
 
 export const Demo = () => {
   const[data, setData] = useState("Try it out!")
