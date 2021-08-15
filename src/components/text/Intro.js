@@ -7,7 +7,7 @@ export default function Intro() {
   const [replay, setReplay] = useState(true);
   // Placeholder text data, as if from API
   const placeholderText = [
-    { type: "heading1", text: "Generate names, emails, and more on the fly!" },
+    { type: "heading1", text: "names, eails, and more on the fly!" },
     {
       type: "heading2",
       text: "Scroll down to see more"
