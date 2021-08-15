@@ -46,7 +46,7 @@ export const Demo = () => {
       </motion.button>{' '}
       
       <div className="demoData">
-        <h5 className="dataText">{data}</h5>
+        <h5 className="dataText container">{data}</h5>
       </div>
 
 
