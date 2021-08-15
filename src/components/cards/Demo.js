@@ -5,7 +5,7 @@ import "./cardstyles.css"
 import {Namerr} from "namerr"
 
 export const Demo = () => {
-  const[data, setData] = useState(Namerr.names(30).join(", "))
+  const[data, setData] = useState("Try it out!")
 
 
   function populateUsers(){
