@@ -1,6 +1,8 @@
 .demoDiv {
   margin-left: auto;
   margin-right: auto;
+  width:100vw;
+
 }
 
 .demoData{
@@ -15,6 +17,7 @@
 .dataText {
   color:#3e415c;
   padding: 2%;
+  font-size: 5vw;
 }
 
 .databtn {

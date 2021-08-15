@@ -13,7 +13,7 @@ export const Demo = () => {
       `{ fullName: '${i.fullName}',
          email: '${i.email}', 
          username: '${i.username}',
-        password: '${i.password.slice(0,8)}' } `) 
+         password: '${i.password.slice(0,8)}' } `) 
     )
     setData(`[${userStrings}]`);
   }
