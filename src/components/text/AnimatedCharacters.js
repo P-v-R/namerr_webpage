@@ -64,7 +64,7 @@ const AnimatedCharacters = props => {
                     style={{
                       overflow: "hidden",
                       display: "inline-block",
-                      fontSize:"3vw",
+                      fontSize:"4vw",
 
                     }}
                     key={index}
