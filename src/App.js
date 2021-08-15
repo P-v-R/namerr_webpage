@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import gettingStarted from './assets/gettingStartedWht.svg'
+import uNameIt from './assets/younameit.svg'
 import './App.css';
 import { Example } from './components/navbar/Example';
 import Zoom from 'react-reveal/Zoom';
@@ -18,25 +20,30 @@ function App() {
         </div>
         <img src={logo} className="App-logo" alt="logo" />
         <Intro />
-        </header>
+      </header>
         <div id="try"></div>
         <div style={{ marginTop: "60vh" }} ></div>
-        <Zoom>
-          <h3>Bulk email addresses? Tons of fake names? Random usernames? <br></br> <u>You Name It!</u></h3>
-          <Demo />
-        </Zoom>
-        <div id="start"></div>
+      <Zoom>
+        <h3>Bulk email addresses? Tons of fake names? Random usernames? <br/>
+        <img src={uNameIt} className="name-it" alt="logo" />
+        </h3>
+        <Demo />
+      </Zoom>
+        <div id="start" />
+      <Zoom>
         <div style={{ marginTop: "65vh" }} ></div>
-          <Docs />
+        <img src={gettingStarted} className="App-logo" alt="logo" />
+        <Docs />
+      </Zoom>
         <Zoom>
-        </Zoom>
+      </Zoom>
         <div style={{ marginTop: "65vh" }}></div>
         <div id="beer"></div>
-        <Zoom>
-        
-          <VenmoMe />
-        </Zoom>
-      
+      <Zoom>
+
+        <VenmoMe />
+      </Zoom>
+
     </div>
   );
 }

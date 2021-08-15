@@ -24,3 +24,8 @@
 .support-text{
   color: #f3f1df;
 }
+
+.name-it{
+  width: 45vw;
+  transform:rotate(-10deg)
+}
