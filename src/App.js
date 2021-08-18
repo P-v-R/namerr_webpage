@@ -22,22 +22,22 @@ function App() {
         <Intro />
       </header>
         <div id="try"></div>
-        <div style={{ marginTop: "60vh" }} ></div>
+        <div style={{ marginTop: "50vh" }} ></div>
       <Zoom>
         <h3>Bulk email addresses? Tons of fake names? Random usernames? <br/>
-        <img src={uNameIt} className="name-it" alt="logo" />
+          <img src={uNameIt} className="name-it" alt="logo" />
         </h3>
         <Demo />
       </Zoom>
         <div id="start" />
       <Zoom>
-        <div style={{ marginTop: "65vh" }} ></div>
+        <div style={{ marginTop: "55vh" }} ></div>
         <img src={gettingStarted} className="App-logo" alt="logo" />
         <Docs />
       </Zoom>
         <Zoom>
       </Zoom>
-        <div style={{ marginTop: "65vh" }}></div>
+        <div style={{ marginTop: "50vh" }}></div>
         <div id="beer"></div>
       <Zoom>
 
